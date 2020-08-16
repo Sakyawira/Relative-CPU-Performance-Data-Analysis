@@ -8,6 +8,7 @@ The dataset is Relative CPU Performance Data downloaded from UCI Machine Learnin
 The initial exploration of the data began with some summary for each attribute’s minimum, maximum, mean, median, standard deviation, and distinct count. The results were taken from a dataset with 209 entries, as shown here:
 
 
+<img src="https://github.com/Sakyawira/Relative-CPU-Performance-Data-Analysis/blob/master/Images/description.PNG?raw=true" width="461" height="150" />
 
 It should be noted that all attributes have standard deviations of more than 3.
 
