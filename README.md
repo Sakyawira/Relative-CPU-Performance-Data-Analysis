@@ -2,13 +2,7 @@
 Sakyawira Nanda Ruslim, August 2020.
 
 ## Executive Summary 
-The dataset is Relative CPU Performance Data downloaded from UCI Machine Learning Repository. The dataset contains the vendor name: 30 (adviser, amdahl,apollo, basf, bti, burroughs, c.r.d, cambex, cdc, dec,dg, formation, four-phase, gould, honeywell, hp, ibm, ipl, magnuson, microdata, nas, ncr, nixdorf, perkin-elmer, prime, siemens, sperry, sratus, wang), Model Name: many unique symbols, MYCT: machine cycle time in nanoseconds (integer), MMIN: minimum main memory in kilobytes (integer), MMAX: maximum main memory in kilobytes (integer), CACH: cache memory in kilobytes (integer), CHMIN: minimum channels in units (integer), CHMAX: maximum channels in units (integer), PRP: published relative performance (integer), and ERP: estimated relative performance from the original article (integer).
-
-There were no null values in the 209 rows dataset. 
-
-After exploring the data by visualizing the correlation between each numerical variable, MMIN, MMAX, CACH, CHMIN, and CHMAX are highly positively correlated while MYCT are relatively highly negatively correlated.
-
-Linear Regression algorithms have been tested for this train dataset and have a score of 0.922.
+The dataset is Relative CPU Performance Data downloaded from UCI Machine Learning Repository. The dataset contains the vendor name, Model Name, MYCT (machine cycle time in nanoseconds), MMIN (minimum main memory in kilobytes), MMAX(maximum main memory in kilobytes), CACH(cache memory in kilobytes), CHMIN(minimum channels in units), CHMAX(maximum channels in units), PRP(published relative performance), and ERP(estimated relative performance from the original article). After exploring the data by visualizing the correlation between each numerical variable, MMIN, MMAX, CACH, CHMIN, and CHMAX are highly positively correlated while MYCT are relatively highly negatively correlated. Linear Regression algorithms have been tested for this train dataset and have a score of 0.738.
 
 ## Initial Data Exploration 
 The initial exploration of the data began with some summary for each attribute’s minimum, maximum, mean, median, standard deviation, and distinct count. The results were taken from a dataset with 209 entries, as shown here:
