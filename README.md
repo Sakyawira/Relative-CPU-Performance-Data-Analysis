@@ -15,8 +15,7 @@ It should be noted that all attributes have standard deviations of more than 3.
 ## Correlation and Relationships
 The correlation between the numeric columns were calculated and observed in the below correlation plot. (The right color bar indicated the correlation values. For example, dark red means correlation value is 1 and light beige means correlation value is negative 0.25)
 
-<img src="https://github.com/Sakyawira/Relative-CPU-Performance-Data-Analysis/blob/master/Images/description.PNG?raw=true" width="531" height="361" />
-https://github.com/Sakyawira/Relative-CPU-Performance-Data-Analysis/blob/master/Images/correlation.PNG?raw=true
+<img src="https://github.com/Sakyawira/Relative-CPU-Performance-Data-Analysis/blob/master/Images/correlation.PNG?raw=true" width="531" height="361" />
 
 The graph shows that MMIN, MMAX, CACH, CHMIN, and CHMAX have strong positive correlation with the PRP of the CPU. On the other hand MYCT has a strong negative correlation with the PRP of the CPU.
 
